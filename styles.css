@@ -1,0 +1,471 @@
+body
+{ 
+  font-size: 90%;
+  margin: 0px;
+  color: #444444;
+  background-color: #D0D0D0;
+  font-family: Palatino Linotype, Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center; /* Needed for IE centering */
+}
+
+td 
+{
+  font-size: 90%;
+}
+
+a { color: #CC0000; }
+
+h1 { font-size: 20pt; color: #666633; }
+h2 { font-size: 14pt; color: #666633; }
+
+dt { font-weight: bold; }
+
+.rightp { text-align: right; margin-right: 15px; }
+
+#all-wrapper
+{
+  background-color: #FFF;
+  margin: 10px auto;
+  width: 900px;
+  padding: 5px;
+}
+
+#banner
+{
+  float: right;
+  margin-top: 0px;
+}
+
+#content-wrapper
+{
+  clear: both;
+  text-align: left;
+  background-color: #FFF;
+  margin: 10px auto;
+  width: 900px;
+}
+
+#header 
+{
+  float: left;
+  width: 900px;
+  border: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
+  background-color: #666;
+}
+
+#nav
+{
+  float: left;
+  font-weight: bold;
+  background-color: #666;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+#nav span {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ddd;
+  font-size: 110%;
+}
+
+#nav span#last {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+#nav a {
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#nav a:hover, #nav a.active {
+  color: #000;
+  text-decoration: underline;
+}
+
+#intro
+{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#intro #name
+{
+  color: #666633;
+  font-size: 22pt;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+#intro #job
+{
+  margin-top: -10px;
+  padding-top: 4px;
+  padding-left: 10px;
+  font-size: 80%;
+}
+
+#intro #brc
+{
+  padding-left: 10px;
+  font-size: 80%;
+}
+
+#intro #stat
+{
+  padding-left: 10px;
+  font-size: 80%;
+}
+
+#intro a
+{
+  color: #666;
+  text-decoration: none;
+}
+
+#intro a:hover
+{
+  color: #000;
+  text-decoration: none;
+}
+
+#intro a:visited
+{
+  color: #666;
+  text-decoration: none;
+}
+
+#sidebar
+{
+  font-size: 90%;
+  background-color: #FFF;
+  width: 220px;
+  clear: both;
+  float: right;
+  display: inline;
+}
+
+#sidebar img
+{
+  padding-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#sidebar p
+{
+  text-align: left;
+  padding-right: 10px;
+}
+
+#content
+{
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: #FFF;
+  width: 640px;
+}
+
+#wide-content
+{
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: #FFF;
+  width: 860px;
+}
+
+#footer
+{
+  text-align: right;
+}
+
+#footer p
+{
+  padding-right: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 4px;
+}
+
+#last-update
+{
+  font-size: 80%;
+}
+
+#footer-bar
+{
+  width: 900px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #666;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.classes th
+{
+  background-color: #DDD;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.classes
+{
+  margin-left: 10px;
+  border-collapse: collapse;
+}
+
+.classes td
+{
+  border: 1px solid #DDD; 
+}
+
+.classes th
+{
+  border: 1px solid #BBB; 
+}
+
+.class-extra
+{
+  margin-left: 5px;
+  font-size: 80%;
+}
+
+.grants
+{
+  border-collapse: collapse;
+}
+
+.grants td
+{
+  border-bottom: 1px solid #DDD;
+}
+
+.pub
+{
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DDD;
+}
+
+.pub .title
+{
+  font-size: 90%;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.pub .journal
+{
+  margin-left: 10px;
+}
+
+.pub .authors
+{
+  font-size: 80%;
+}
+
+.software
+{
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+.software .title
+{
+  font-weight: bold;
+}
+
+.software .title a
+{
+  font-weight: normal;
+}
+
+.software .paper
+{
+  margin-left: 10px;
+}
+
+.software .note
+{
+  margin-left: 10px;
+  font-size: 80%;
+}
+
+.software .description
+{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.software .link
+{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.links-1
+{
+  font-size: 20pt;
+  color: #666633;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.links-2
+{
+  font-size: 14pt;
+  color: #666633;
+  padding-left: 15px;
+}
+
+.links-section-1
+{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.links-section-2
+{
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.links-list a
+{
+  margin-left: 10px;
+}
+
+.links
+{
+  display: block;
+}
+
+.links-body-1
+{
+  margin-left: 5px;
+}
+
+.links-body-2
+{
+}
+
+.class-wrapper
+{
+  width: 850px;
+}
+
+.class-wrapper dt
+{
+  display: inline;
+  font-weight: bold;
+}
+
+.class-wrapper dd
+{ 
+  display: inline;
+  font-size: 80%;
+}
+
+dl.table-display
+{
+  width: 50em;
+  margin: 2em 0;
+  padding: 0;
+}
+
+.table-display dt
+{
+  width: 15em;
+  float: left;
+  margin: 0 0 0 0;
+  border-top: 1px solid #999;
+  font-weight: bold;
+}
+
+/* commented backslash hack for mac-ie5 \*/
+dt { clear: both; }
+/* end hack */
+
+.table-display dd
+{
+  font-size: 80%;
+  float: left;
+  width: 30em;
+  margin: 0 0 0 0;
+  padding: .5em;
+  border-top: 1px solid #999;
+}
+
+.person 
+{
+  width: 380px;
+  float: left;
+}
+
+.person-details
+{
+  font-size: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.days th
+{
+  background-color: #DDD;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 1px solid #BBB; 
+}
+
+.days
+{
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.days td
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 1px solid #DDD; 
+}
+
+.days .exam
+{
+  color: red;
+  font-weight: bold;
+}
+
+.days .note
+{
+  font-weight: bold;
+  color: #008800;
+}
